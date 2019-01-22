@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+
+    <!--Course-IMG111,GURSIMRAN,ASSIGNMENT NUMBER-1
+           This is an html file and its purpose is to make a static web page so that i can apply javascript to it.
+           Its major component is Body.
+           This is the main home page
+           Author:Gursimran
+
+Date:   2019-01-21
+
+Filename: index.html
+    -->
+    
+
+    <link rel="stylesheet" href="resort.css" type="text/css">
+
+    <title>
+        Kayak Vacation Resort
+    </title>
+</head>
+<body>
+<header>
+<div id ="centermain">
+
+    <h1>Kayak Vacation Resort</h1>
+        </div>
+</header>
+
+
+    <nav>
+        <ul>
+
+            <li> <a href="index.html">Homes</a>&nbsp;&nbsp;</li>
+
+            <li> <a href="rooms.html">Rooms</a>&nbsp;&nbsp;</li>
+
+        </ul>
+    </nav>
+    <main id="hero">
+
+
+        <script>
+// value will be stored in a variable called name.
+            let name = "Welcome to our vacation site.Whats your name?";
+            let answeroftheuser = prompt(name);//value of the variable name is stored in another variable named as answeroftheuser which has prompt assigned to it to store value from a user.
+            alert("Welcome to vacation resort site, " + answeroftheuser);//It will give an alert or notification to the user. Whatever they entered in the prompt will come here.
+
+        </script>
+
+
+
+
+    </main>
+    <footer>
+
+            <i><b>
+                    Copyright&nbsp;&copy;&nbsp;2018 Kayak Vacation Resort<br>
+        
+        
+        
+                </b>
+            </i>
+        </footer>
+        
+        
+        
+        
+        
+        
+    <div id = "center">
+        <h4>We have these rooms available.</h4>
+        <p id="roominfo"> Hello,this will be displayed by javascript.</p> <!--This is paragraph id named roominfo which we use in javascript to change html contents.-->
+<!-- Following is an external javascript file which is attached to html-->
+</div>
+        <script src="room.js"></script>
+    
+</body>
+
+
+</html>
